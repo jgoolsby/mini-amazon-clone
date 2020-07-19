@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyAy4uTYH7lqq0q5yrB_OIhW3tgWFZXYxRk",
+  authDomain: "mini-clone.firebaseapp.com",
+  databaseURL: "https://mini-clone.firebaseio.com",
+  projectId: "mini-clone",
+  storageBucket: "mini-clone.appspot.com",
+  messagingSenderId: "512796653517",
+  appId: "1:512796653517:web:e01d8b3cf09e950fa53684"
+};
