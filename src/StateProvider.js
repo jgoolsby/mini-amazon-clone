@@ -22,7 +22,7 @@ export const useStateValue = () => useContext(StateContext);
 // Create & exported provider which gives access to the data layer (connect in Redux, methinks)
 // The Data layer (Statecontext) creates a Provider with the values( initialState, and the reducer) using the useReducer hook insider StateContext 
 // StateProvider is imported into index.js and wrapped around the app as the parent and provides the initialState and reducer function as props by default/required
-// InitialState & reducer are exported from file
+// InitialState & reducer are exported from reducer file
 // export useContext to use the ContextAPI inside a component
 // import useStateValue and destructure it into the variable you need after importing into the component along with dispath variable
 // Using dispatch object just sends object which matches what it is the reducer
