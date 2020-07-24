@@ -30,7 +30,7 @@ function Product({ id, title, image, price, rating }) {
                     {
                         Array(rating)
                             .fill()
-                            .map((_) => (
+                            .map((_,) => (
                                 <span role="img" aria-label="star">🌟</span>
                             ))
                     }
